@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{2DA67A8D-F48E-43F6-9B65-D4CE234FADCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{DCBF7E71-AD62-4262-B2CB-B7ECFC2F5CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldServer", "HelloWorldServer\HelloWorldServer.csproj", "{C1B3AE17-EF26-421D-952E-C3B2EAB4254B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DA67A8D-F48E-43F6-9B65-D4CE234FADCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA67A8D-F48E-43F6-9B65-D4CE234FADCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA67A8D-F48E-43F6-9B65-D4CE234FADCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA67A8D-F48E-43F6-9B65-D4CE234FADCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBF7E71-AD62-4262-B2CB-B7ECFC2F5CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBF7E71-AD62-4262-B2CB-B7ECFC2F5CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBF7E71-AD62-4262-B2CB-B7ECFC2F5CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBF7E71-AD62-4262-B2CB-B7ECFC2F5CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B3AE17-EF26-421D-952E-C3B2EAB4254B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B3AE17-EF26-421D-952E-C3B2EAB4254B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B3AE17-EF26-421D-952E-C3B2EAB4254B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B3AE17-EF26-421D-952E-C3B2EAB4254B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
