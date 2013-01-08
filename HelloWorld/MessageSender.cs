@@ -1,6 +1,7 @@
 ﻿using Messages;
 using NServiceBus;
 using log4net;
+using System;
 
 
 namespace HelloWorld
@@ -11,8 +12,12 @@ namespace HelloWorld
 
         public void Run()
         {
-            var message = new Request { SaySomething = "Say something againg from config" };
-            Bus.Send(message);
+            Bus.Send<RequestWithResponse>(m => m.SaySomething = "Say 'Request with Response'.")
+            .Register<int>(response =>
+            {
+                Console.WriteLine("Response received:" + response);
+                // LogManager.GetLogger("MessageSender").Fatal("Response received:" + response);
+            });
             LogManager.GetLogger("MessageSender").Fatal("Sent message.");
         }
 

@@ -1,4 +1,4 @@
-namespace ClassLibrary1 
+namespace HelloWorld
 {
     using NServiceBus;
     using log4net;
